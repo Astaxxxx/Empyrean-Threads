@@ -16,12 +16,10 @@
   font-family: "Fira sans", sans-serif;
 }
 
-
-
 /*  Nav bar and Menu code*/
-.main-container  {
-position: relative;
-top: 100px;
+.main-container {
+  position: relative;
+  top: 100px;
 }
 
 .container {
@@ -130,49 +128,44 @@ nav {
   .menu {
     display: flex;
   }
-  
 }
 
 /*  products page code*/
 
-.allitems{
-   text-align: center;
-    width: 70%;
-    margin: 16px auto;
+.allitems {
+  text-align: center;
+  width: 70%;
+  margin: 16px auto;
 }
-.items{
+.items {
   margin: 40px;
   position: relative;
 }
 
-.maintitle{
+.maintitle {
   color: #d36d0e;
-    font-size: 40px;
-    font-weight: 500;
-    text-align: center;
-    font-family:  sans-serif;
-    padding: 11px;
-    
-}
-
-.itemtitle{
   font-size: 40px;
-
+  font-weight: 500;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 11px;
 }
 
+.itemtitle {
+  font-size: 40px;
+}
 
-.tshirt{
+.tshirt {
   position: relative;
   width: 100%;
 }
 
-.tshirtthings{
-   padding: 30px 9px 32px 9px;
-   background: rgb(241, 240, 240);
-
+.tshirtthings {
+  padding: 30px 9px 32px 9px;
+  background: rgb(241, 240, 240);
 }
 
-.text{
+.text {
   position: relative;
   left: 220px;
   font-size: 16px;
@@ -180,55 +173,55 @@ nav {
   width: 55%;
 }
 
-.tshirtpic{
+.tshirtpic {
   position: relative;
   right: 30px;
   top: -40px;
   width: 200px;
-    height: 200px;
- padding: 20px;
- 
+  height: 200px;
+  padding: 20px;
+
   margin: 0 auto;
 }
 
-.itemname{font-family: "Fira sans", sans-serif;
+.itemname {
+  font-family: "Fira sans", sans-serif;
   background: rgb(241, 240, 240);
-align-items: center;
+  align-items: center;
 }
-.price{
+.price {
   background: rgb(247, 247, 247);
 }
 
-.information{
+.information {
   position: relative;
-background: white;
+  background: white;
   font-size: 16px;
 }
-.productname{
+.productname {
   color: black;
   display: block;
-  font-size:16px;
+  font-size: 16px;
   font-weight: bold;
   background: rgb(247, 247, 247);
 }
-.itemtitle{
+.itemtitle {
   background: rgb(247, 247, 247);
 }
 
-
-.maincontainer  {
+.maincontainer {
   position: relative;
   top: 60px;
   margin: 0 auto;
   height: 100vh;
-width: 100%;
+  width: 100%;
   background-color: orange;
   display: flex;
-  
 }
 /*  indivual item  page code*/
 
-.col1,.col2{
+.col1,
+.col2 {
   flex-basis: 50%;
   height: 100%;
   display: flex;
@@ -236,57 +229,53 @@ width: 100%;
   flex-direction: column;
 }
 
-.col1{
-padding: 9%;
+.col1 {
+  padding: 9%;
 }
 
-.col1 p{
+.col1 p {
   font-size: 28px;
-  }
+}
 
-.col2{
+.col2 {
   background-color: lightcyan;
 }
-.producttitle{
+.producttitle {
   color: black;
   font-size: 74px;
   line-height: 100px;
   margin-bottom: 5px;
 }
-.itemprice{
+.itemprice {
   font-size: 60px;
 }
 
-button{
-width: fit-content;
-border: none;
-font-size: 13px;
-padding: 10px 20px;
-background-color: rgb(224, 224, 224);
-cursor: pointer;
+button {
+  width: fit-content;
+  border: none;
+  font-size: 13px;
+  padding: 10px 20px;
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
 }
 
-.pic{
-
+.pic {
   width: 100%;
   text-align: center;
 }
 
-.pic img{
-
+.pic img {
   width: 70%;
 }
 
-#sizes{
-  width:130px; 
- 
- }
+#sizes {
+  width: 130px;
+}
+/* end of products page code*/
 
- /*  contact us  page code*/
+/*  contact us  page code*/
 
-
-
-.contact{
+.contact {
   position: relative;
   min-height: 80px;
   padding: 5px 1px;
@@ -298,82 +287,68 @@ cursor: pointer;
   border-color: black;
   top: 90px;
   width: 1450px;
-
-
 }
 
-.titlecu{
-
+.titlecu {
   color: #e07c09;
-    font-size: 40px;
-    font-weight: 500;
-    text-align: center;
-    font-family:  sans-serif;
-    padding: 11px;
-    
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 11px;
 }
 
-
-
-.infophone{
-position: relative;
+.infophone {
+  position: relative;
   line-height: 30px;
   color: black;
-  
+
   padding: 5px 10px;
   top: -50px;
 }
 
-.infoadress{
-position: relative;
-top: -120px;
-left: 500px;
-line-height: 30px;
-color: black;
+.infoadress {
+  position: relative;
+  top: -120px;
+  left: 500px;
+  line-height: 30px;
+  color: black;
 
-padding: 5px 10px;
+  padding: 5px 10px;
 }
 
+.infoemail {
+  top: 10px;
+  position: relative;
+  right: 500px;
+  line-height: 30px;
+  color: black;
 
-.infoemail{
-top: 10px;
-position: relative;
-right: 500px;
-line-height: 30px;
-color: black;
-
-padding: 5px 10px;
+  padding: 5px 10px;
 }
 
-
-
-.logoemail{
-width: 100px;
-height: 100px;
-position: relative;
-right: 500px;
-top: 170px;
+.logoemail {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 500px;
+  top: 170px;
 }
 
+.logophone {
+  width: 100px;
+  height: 100px;
+  position: relative;
 
+  top: -40px;
+}
 
-  .logophone{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    
-    top: -40px;
-    }
-    
-    .logoadress{
-      width: 100px;
-      height: 100px;
-      position: relative;
-      left: 500px;
-      top: 65px;
-      }
+.logoadress {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 500px;
+  top: 65px;
+}
 
-
-
-
-
+/* this is mustafas css it needs to be edited and added to the main version of 'styles.css' which is within the main folder and not 'pages.html' */
