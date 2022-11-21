@@ -244,14 +244,6 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.main-container {
-  display: flex;
-  position: relative;
-  z-index: 100;
-
-  align-self: auto;
-}
-
 /*  Nav bar and Menu code*/
 .nav_Container {
   max-width: 1280px;
@@ -536,27 +528,40 @@ nav {
 }
 
 /*product page */
+
+.main-container {
+  padding: 10px;
+  display: inline;
+}
+
+.text p {
+  text-align: center;
+}
 .allitems {
   text-align: center;
   width: 70%;
+  align-items: center;
   margin: 16px auto;
 }
 .items {
-  margin: 40px;
+  margin-top: 30px;
+  margin: 0px;
   position: relative;
 }
 
 .maintitle {
-  color: #d36d0e;
+  color: #0c0907;
   font-size: 40px;
   font-weight: 500;
-  text-align: center;
+
   font-family: sans-serif;
   padding: 11px;
+  margin-bottom: 20px;
 }
 
 .itemtitle {
   font-size: 40px;
+  text-align: center;
 }
 
 .tshirt {
@@ -798,3 +803,5 @@ button:hover {
   margin-top: 10px;
   color: black;
 }
+
+/* sign up end */
