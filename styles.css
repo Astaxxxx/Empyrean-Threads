@@ -641,6 +641,62 @@ nav {
   background-color: var(--orange);
   display: flex;
 }
+/* products page end */
+
+/*  indivual item  page code*/
+
+.col1,
+.col2 {
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.col1 {
+  padding: 9%;
+}
+
+.col1 p {
+  font-size: 28px;
+}
+
+.col2 {
+  background-color: lightcyan;
+}
+.producttitle {
+  color: black;
+  font-size: 74px;
+  line-height: 100px;
+  margin-bottom: 5px;
+}
+.itemprice {
+  font-size: 60px;
+}
+
+button {
+  width: fit-content;
+  border: none;
+  font-size: 13px;
+  padding: 10px 20px;
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
+}
+
+.pic {
+  width: 100%;
+  text-align: center;
+}
+
+.pic img {
+  width: 70%;
+}
+
+#sizes {
+  width: 130px;
+}
+/* end of the individual item styling -Mustafa */
 
 /*about us page styling*/
 body {
