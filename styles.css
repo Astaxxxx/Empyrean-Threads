@@ -1,3 +1,222 @@
+/* :root {
+  --purple: #8c38ff;
+  --lightgrey: #eeeeee;
+  --gold: #ffd700;
+  --eggshell: #f0ead6;
+  --black: #000000;
+  --copper: #ffcb9a;
+  --aqua: #5ab9ea;
+  --orange: #ea8b5a;
+}
+
+.main-container {
+  display: flex;
+  position: relative;
+  z-index: 100;
+
+  align-self: auto;
+}
+
+ Nav bar and Menu code
+.nav_Container {
+  max-width: 1280px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Fira sans", sans-serif;
+}
+
+.nav_Container h1 {
+  color: rgb(17, 17, 95);
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 99;
+  background: linear-gradient(
+    90deg,
+    #2becac 0%,
+    rgb(111, 176, 214) 25%,
+    rgb(173, 27, 173) 100%
+  );
+  padding: 14px 28px;
+  border-bottom: 5px solid var(--orange);
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+  z-index: 1;
+
+  user-select: none;
+
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background-color: var(--copper);
+  border-radius: 6px;
+  z-index: 1;
+
+  transform-origin: 0 0;
+  transition: 0.4s;
+}
+
+.hamburger:hover span:nth-child(2) {
+  transform: translateX(-10px);
+  background-color: var(--aqua);
+}
+
+.hamburger.is-active span:nth-child(1) {
+  transform: translate(0px, -2px) rotate(45deg);
+  background-color: var(--aqua);
+}
+
+.hamburger.is-active span:nth-child(2) {
+  opacity: 0;
+  transform: translate(15px);
+}
+
+.hamburger.is-active span:nth-child(3) {
+  transform: translate(-3px, 3px) rotate(-45deg);
+  background-color: var(--aqua);
+}
+
+.menu {
+  display: none;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  margin: 0 -16px;
+}
+
+.menu a {
+  color: #2becac;
+  margin: 0 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 8px 16px;
+  border-radius: 99px;
+}
+
+.menu a.is-active,
+.menu a:hover {
+  color: var(--black);
+  background-color: var(--copper);
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: flex;
+  }
+}
+
+ End of Nav bar code -Alex  
+
+Index begins 
+
+.main_text h1 {
+  margin-top: 200px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+ Index ends  -Alex 
+
+ Beginning of the Login Page CSS -Alex 
+
+.loginForm {
+  width: 500px;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.loginForm h1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+  border: 5;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border-color: slateblue;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: black;
+  border-radius: 20px;
+  transition: 0.25px;
+}
+
+.loginForm input[type="text"]:focus,
+.loginForm input[type="password"]:focus {
+  width: 270px;
+  border-color: slateblue;
+}
+
+.loginForm input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid;
+  padding: 14px 10px;
+  outline: none;
+  color: slateblue;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+
+.loginForm input[type="submit"]:hover {
+  background-color: var(--copper);
+}
+.logText {
+  text-align: center;
+  margin-top: 580px;
+}
+
+ The end of the Login page CSS -Alex 
+
+/* The Beginning of the Products.html CSS -Mustafa*/
+
 :root {
   --purple: #8c38ff;
   --lightgrey: #eeeeee;
@@ -7,6 +226,22 @@
   --copper: #ffcb9a;
   --aqua: #5ab9ea;
   --orange: #ea8b5a;
+  --mint: #32ac8d;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(102, 96, 211) 0%,
+    rgb(241, 57, 156) 25%,
+    rgba(194, 245, 255, 1) 100%
+  );
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .main-container {
@@ -134,9 +369,9 @@ nav {
   }
 }
 
-/* End of Nav bar code -Alex  */
+/* nave bar ended */
 
-/* Index begins */
+/* index begins */
 
 .main_text h1 {
   margin-top: 200px;
@@ -145,9 +380,9 @@ nav {
   font-size: 20px;
 }
 
-/* Index ends  -Alex */
+/* index page code ended */
 
-/* Beginning of the Login Page CSS -Alex */
+/* login page start */
 
 .loginForm {
   width: 500px;
@@ -213,6 +448,347 @@ nav {
   margin-top: 580px;
 }
 
-/* The end of the Login page CSS -Alex */
+/* login end */
 
-/* The Beginning of the Products.html CSS -Mustafa*/
+/* contact page */
+.contact {
+  position: relative;
+  min-height: 80px;
+  padding: 5px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border-color: black;
+  top: 90px;
+  width: 1450px;
+}
+
+.titlecu {
+  color: #e07c09;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 500px;
+}
+
+.infophone {
+  position: relative;
+  line-height: 30px;
+  color: black;
+  align-items: center;
+  margin-left: 500px;
+
+  padding: 5px 10px;
+  top: -50px;
+}
+
+.infoadress {
+  position: relative;
+  top: -120px;
+  left: 500px;
+  line-height: 30px;
+  color: black;
+
+  padding: 5px 10px;
+}
+
+.infoemail {
+  top: 10px;
+  position: relative;
+  right: 500px;
+  line-height: 30px;
+  color: black;
+
+  padding: 5px 10px;
+}
+
+.logoemail {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 500px;
+  top: 170px;
+}
+
+.logophone {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-left: 500px;
+  top: -40px;
+}
+
+.logoadress {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 500px;
+  top: 65px;
+}
+
+/*product page */
+.allitems {
+  text-align: center;
+  width: 70%;
+  margin: 16px auto;
+}
+.items {
+  margin: 40px;
+  position: relative;
+}
+
+.maintitle {
+  color: #d36d0e;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 11px;
+}
+
+.itemtitle {
+  font-size: 40px;
+}
+
+.tshirt {
+  position: relative;
+  width: 100%;
+}
+
+.tshirtthings {
+  padding: 30px 9px 32px 9px;
+  background: rgb(241, 240, 240);
+}
+
+.text {
+  position: relative;
+  left: 220px;
+  font-size: 16px;
+  text-align: center;
+  width: 55%;
+}
+
+.tshirtpic {
+  position: relative;
+  right: 30px;
+  top: -40px;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+
+  margin: 0 auto;
+}
+
+.itemname {
+  font-family: "Fira sans", sans-serif;
+  background: rgb(241, 240, 240);
+  align-items: center;
+}
+.price {
+  background: rgb(247, 247, 247);
+}
+
+.information {
+  position: relative;
+  background: white;
+  font-size: 16px;
+}
+.productname {
+  color: black;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  background: rgb(247, 247, 247);
+}
+.itemtitle {
+  background: rgb(247, 247, 247);
+}
+
+.maincontainer {
+  position: relative;
+  top: 60px;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--orange);
+  display: flex;
+}
+
+/*about us page styling*/
+body {
+  padding-top: 60px;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--copper);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .content img {
+  height: auto;
+  width: 420px;
+  max-width: 100%;
+}
+
+.text {
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.content {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text h1 {
+  color: white;
+  font-size: 80px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.text h5 {
+  color: #ea8b5a;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.text p {
+  color: #fcfcfc;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  border: 2px solid transparent;
+  text-decoration: none;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1, 1);
+  background-color: transparent;
+  border: 2px solid orange;
+  color: var(--orange);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1180px) {
+  .about {
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about .content img {
+    margin-bottom: 35px;
+  }
+  .text h1 {
+    font-size: 60px;
+    margin-bottom: 25px;
+  }
+}
+
+/* about us end */
+
+/* SignUp form CSS -Alex*/
+
+@media (max-width: 800px) {
+  .background-flex-box {
+    flex-direction: column;
+  }
+}
+.signUp-Form {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.signUp-Form h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.signUp-Form h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signUp-Form form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.signUp-Form form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.signUp-Form form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  margin-left: 10px;
+  border: 1px solid var(--mint);
+  border-radius: 6px;
+  outline: none;
+}
+
+.signUp-Form input[type="Password"] {
+  margin-top: 25px;
+}
+
+.signUp-Form input[type="button"] {
+  width: 300px;
+  height: 35px;
+  margin-top: 20px;
+
+  border: none;
+  background-color: var(--mint);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.signUp-Form p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.pre-existing-Account p {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  color: black;
+}
