@@ -400,7 +400,7 @@ nav {
   color: black;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .loginForm input[type="text"],
@@ -446,6 +446,7 @@ nav {
 .logText {
   text-align: center;
   margin-top: 580px;
+  font-size: 20px;
 }
 
 /* login end */
@@ -466,7 +467,7 @@ nav {
 }
 
 .titlecu {
-  color: #e07c09;
+  color: #200505;
   font-size: 40px;
   font-weight: 500;
   text-align: center;
@@ -479,19 +480,20 @@ nav {
   line-height: 30px;
   color: black;
   align-items: center;
-  margin-left: 500px;
-
+  margin-left: 470px;
+  text-align: center;
   padding: 5px 10px;
   top: -50px;
 }
 
 .infoadress {
   position: relative;
+  text-align: center;
   top: -120px;
   left: 500px;
   line-height: 30px;
   color: black;
-
+  margin-left: 275px;
   padding: 5px 10px;
 }
 
@@ -501,8 +503,9 @@ nav {
   right: 500px;
   line-height: 30px;
   color: black;
-
+  margin-left: 665px;
   padding: 5px 10px;
+  text-align: center;
 }
 
 .logoemail {
@@ -510,14 +513,16 @@ nav {
   height: 100px;
   position: relative;
   right: 500px;
+  margin-left: 650px;
   top: 170px;
+  align-items: center;
 }
 
 .logophone {
   width: 100px;
   height: 100px;
   position: relative;
-  margin-left: 500px;
+  margin-left: 450px;
   top: -40px;
 }
 
@@ -527,6 +532,7 @@ nav {
   position: relative;
   left: 500px;
   top: 65px;
+  margin-left: 250px;
 }
 
 /*product page */
@@ -725,7 +731,7 @@ button:hover {
 }
 .signUp-Form {
   width: 360px;
-  height: 620px;
+  height: 550px;
   margin: auto;
   margin-top: 10px;
   background-color: white;
@@ -759,7 +765,7 @@ button:hover {
   padding: 7px;
   border: none;
   margin-left: 10px;
-  border: 1px solid var(--mint);
+  border: 1px solid slateblue;
   border-radius: 6px;
   outline: none;
 }
@@ -774,7 +780,7 @@ button:hover {
   margin-top: 20px;
 
   border: none;
-  background-color: var(--mint);
+  background-color: slateblue;
   color: white;
   font-size: 18px;
   cursor: pointer;
@@ -788,7 +794,7 @@ button:hover {
 
 .pre-existing-Account p {
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 10px;
   color: black;
 }
