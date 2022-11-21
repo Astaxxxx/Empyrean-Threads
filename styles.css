@@ -17,8 +17,8 @@
   align-self: auto;
 }
 
-/*  Nav bar and Menu code -Alex*/
-.container {
+/*  Nav bar and Menu code*/
+.nav_Container {
   max-width: 1280px;
   margin: auto;
 
@@ -28,9 +28,9 @@
   font-family: "Fira sans", sans-serif;
 }
 
-.container h1 {
-  color: var(--aqua);
-  font-size: 23px;
+.nav_Container h1 {
+  color: rgb(17, 17, 95);
+  font-size: 25px;
   font-weight: 900;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -43,10 +43,16 @@ nav {
   right: 0;
 
   z-index: 99;
-  background-color: var(--lightgrey);
+  background: linear-gradient(
+    90deg,
+    #2becac 0%,
+    rgb(111, 176, 214) 25%,
+    rgb(173, 27, 173) 100%
+  );
   padding: 14px 28px;
   border-bottom: 5px solid var(--orange);
 }
+
 .hamburger {
   display: block;
   position: relative;
@@ -95,6 +101,7 @@ nav {
   transform: translate(-3px, 3px) rotate(-45deg);
   background-color: var(--aqua);
 }
+
 .menu {
   display: none;
   flex: 1 1 0%;
@@ -103,7 +110,7 @@ nav {
 }
 
 .menu a {
-  color: var(--aqua);
+  color: #2becac;
   margin: 0 16px;
   font-weight: 600;
   text-decoration: none;
@@ -114,6 +121,7 @@ nav {
 
 .menu a.is-active,
 .menu a:hover {
+  color: var(--black);
   background-color: var(--copper);
 }
 
@@ -126,9 +134,9 @@ nav {
   }
 }
 
-/* Nav bar and each html page / css elements template ends here -Alex */
+/* End of Nav bar code -Alex  */
 
-/* Beginning of the Login Page CSS -Alex */
+/* Index begins */
 
 .main_text h1 {
   margin-top: 200px;
@@ -136,11 +144,10 @@ nav {
   font-family: sans-serif;
   font-size: 20px;
 }
-login.html body {
-  margin: 0px;
-  padding: 0px;
-  font-family: sans-serif;
-}
+
+/* Index ends  -Alex */
+
+/* Beginning of the Login Page CSS -Alex */
 
 .loginForm {
   width: 500px;
@@ -150,14 +157,15 @@ login.html body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
-  background-color: var(--eggshell);
+  background-color: white;
   text-align: center;
 }
 
 .loginForm h1 {
-  color: var(--orange);
+  color: black;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .loginForm input[type="text"],
@@ -167,7 +175,7 @@ login.html body {
   display: block;
   margin: 20px auto;
   text-align: center;
-  border-color: var(--orange);
+  border-color: slateblue;
   padding: 14px 10px;
   width: 220px;
   outline: none;
@@ -179,7 +187,7 @@ login.html body {
 .loginForm input[type="text"]:focus,
 .loginForm input[type="password"]:focus {
   width: 270px;
-  border-color: var(--orange);
+  border-color: slateblue;
 }
 
 .loginForm input[type="submit"] {
@@ -191,10 +199,18 @@ login.html body {
   border: 3px solid;
   padding: 14px 10px;
   outline: none;
-  color: var(--orange);
+  color: slateblue;
   border-radius: 24px;
   transition: 0.25px;
   cursor: pointer;
+}
+
+.loginForm input[type="submit"]:hover {
+  background-color: var(--copper);
+}
+.logText {
+  text-align: center;
+  margin-top: 580px;
 }
 
 /* The end of the Login page CSS -Alex */

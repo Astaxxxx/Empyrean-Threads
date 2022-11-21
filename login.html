@@ -8,19 +8,32 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <form class="loginForm" action="login.html" method="post">
-      <h1>Login</h1>
+    <div class="loginForm">
+      <form class="loginForm" action="login.html" method="post">
+        <h1>Login</h1>
 
-      <input type="text" name="" placeholder=" Enter Username" id="username" />
+        <input
+          type="text"
+          name=""
+          placeholder=" Enter Username"
+          id="username"
+        />
 
-      <input
-        type="password"
-        name=""
-        placeholder=" Enter Password"
-        id="password"
-      />
-      <input type="submit" name="" value="Login" />
-    </form>
-    <script src="index.js"></script>
+        <input
+          type="password"
+          name=""
+          placeholder=" Enter Password"
+          id="password"
+        />
+        <input type="submit" name="" value="Login" />
+      </form>
+    </div>
+    <div class="logText">
+      <p>
+        Don't have an Account? <a href="signUp.html">Sign Up Here!</a>
+        <br />
+        Otherwise you can return <a href="index.html"> Home</a>
+      </p>
+    </div>
   </body>
 </html>
