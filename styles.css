@@ -727,6 +727,14 @@ input:focus {
   text-decoration: none;
 }
 
+.col-2 h4 {
+  padding: 8px 30px;
+  width: 150px;
+  border-radius: 5px;
+  border: 2px solid orange;
+  background-color: white;
+}
+
 .single-product .fa {
   color: var(--copper);
   margin-left: 10px;
@@ -734,8 +742,9 @@ input:focus {
 
 .col-2 p {
   color: var(--black);
-  font-family: "Fira sans", sans-serif;
-  background-color: var(--copper);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  border: 3px solid orange;
   border-radius: 5px;
   padding: 5px;
 }
