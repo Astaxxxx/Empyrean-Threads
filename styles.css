@@ -513,17 +513,18 @@ nav {
   text-align: center;
 }
 
-.logoemail {
+.logoEmail {
   width: 100px;
   height: 100px;
   position: relative;
   right: 500px;
   margin-left: 650px;
+  margin-bottom: 10px;
   top: 170px;
   align-items: center;
 }
 
-.logophone {
+.logoPhone {
   width: 100px;
   height: 100px;
   position: relative;
@@ -531,7 +532,7 @@ nav {
   top: -40px;
 }
 
-.logoadress {
+.logoAddress {
   width: 100px;
   height: 100px;
   position: relative;
@@ -539,6 +540,8 @@ nav {
   top: 65px;
   margin-left: 250px;
 }
+
+/* contact page end */
 
 /*product page */
 
