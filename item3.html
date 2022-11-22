@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products, Clothing & Acsessories</title>
+    <title>Product Details</title>
+
     <link rel="shortcut icon" href="images/email.png" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <nav>
       <div class="nav_Container">
         <h1>Empyrean Threads</h1>
@@ -38,7 +43,7 @@
                 d="M12.85 12.1q-.25.25-.55.125q-.3-.125-.3-.475v-7.8q0-.425.288-.713q.287-.287.712-.287h7q.425 0 .712.287q.288.288.288.713v5q0 .425-.288.712q-.287.288-.712.288h-5Zm7.1 8.9q-3.225 0-6.287-1.438q-3.063-1.437-5.425-3.8q-2.363-2.362-3.8-5.425Q3 7.275 3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.225t.325.575l.65 3.5q.05.35-.012.637q-.063.288-.288.513L7 10.9q1.05 1.8 2.625 3.375T13.1 17l2.35-2.35q.225-.225.588-.338q.362-.112.712-.062l3.45.7q.35.075.575.337q.225.263.225.613v4.05q0 .45-.3.75t-.75.3Z"
               /></svg
           ></a>
-          <a href="products.html" class="is-active"
+          <a href="products.html"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="1em"
@@ -77,82 +82,62 @@
       </div>
     </nav>
   </head>
-
   <body>
-    <div class="allitems">
-      <!-- Half of this needs to be seriously renamed -->
-      <div class="main-container">
-        <h1 class="maintitle">Our Stock</h1>
-
-        <div class="items">
-          <!--first item-->
-          <div class="tshirt">
-            <div class="tshirtthings">
-              <div class="tshirtpic">
-                <img
-                  src="images/tshirt.png"
-                  alt="shirt"
-                  height="250px"
-                  width="250px"
-                />
-              </div>
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img
+            src="images/jinguji-shirt-edit.jpg"
+            id="ProductImg"
+            width="100%"
+          />
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img
+                src="images/hugoBossStock.jpg"
+                width="100%"
+                class="small-img"
+              />
             </div>
-            <div class="information">
-              <div class="itemname">
-                <h2 class="itemtitle">Sportswear</h2>
-              </div>
-
-              <a href="item.html" class="productname"
-                >Mens red muscle fit T shirt F3221</a
-              >
-              <p class="price">£ 30</p>
+            <div class="small-img-col">
+              <img src="images/tshirt.png" width="100%" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/tshirt.png" width="100%" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/tshirt.png" width="100%" class="small-img" />
             </div>
           </div>
-          <!--second item-->
-          <div class="tshirt">
-            <div class="tshirtthings">
-              <div class="tshirtpic">
-                <img
-                  src="images/stockHoodie.jpg"
-                  alt="shirt"
-                  height="250px"
-                  width="250px"
-                />
-              </div>
-            </div>
-            <div class="information">
-              <div class="itemname">
-                <h2 class="itemtitle">Casual Wear</h2>
-              </div>
-              <a href="item2.html" class="productname">Uni-Sex Black Hoodie</a>
-              <!-- This is an adobe Stock image for referencing later on-->
+          <!-- End of Col2 -->
+        </div>
+        <div class="col-2">
+          <p>Male Clothing</p>
+          <h1>
+            Luxury Shirt <br />
+            By <br />
+            Empyrean Threads
+          </h1>
+          <h4>£80</h4>
+          <select>
+            <option value="">Select Size</option>
 
-              <p class="price">£ 59.99</p>
-            </div>
-          </div>
-
-          <!--third item-->
-          <div class="tshirt">
-            <div class="tshirtthings">
-              <div class="tshirtpic">
-                <img
-                  src="images/adobeTopStock.jpg"
-                  alt="shirt"
-                  height="250px"
-                  width="250px"
-                />
-              </div>
-            </div>
-            <div class="information">
-              <div class="itemname">
-                <h2 class="itemtitle">Sportswear</h2>
-                <!-- This is an adobe Stock image for referencing later on-->
-              </div>
-
-              <a href="item3.html" class="productname">Mens White shirt</a>
-              <p class="price">£ 80</p>
-            </div>
-          </div>
+            <option value="">M</option>
+            <option value="">L</option>
+            <option value="">XL</option>
+            <option value="">XXL</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="#" class="cartButton">ADD TO CART</a>
+          <h3>Product Details <i class="fa fa-indent"></i></h3>
+          <br />
+          <p>
+            Some say shirts come from Ancient Egypt. Others say its a 'European'
+            thing. We at Empyrean Threads don't really care about where its from
+            only where its going and how good its going to look on you. With its
+            luxurious fitting and stylish collar you'll be sure your the talk of
+            the town wherever you go.
+          </p>
         </div>
       </div>
     </div>
