@@ -642,59 +642,115 @@ nav {
 }
 /* products page end */
 
-/*  indivual item  page code*/
+/*  indivual item 1 page code*/
 
-.col1,
-.col2 {
-  flex-basis: 50%;
-  height: 100%;
+.small-container {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.row {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.col1 {
-  padding: 9%;
+.single-product {
+  margin-top: 80px;
 }
 
-.col1 p {
-  font-size: 28px;
+.small-img-row {
+  display: flex;
+  justify-content: space-around;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
 }
 
-.col2 {
-  background-color: lightcyan;
-}
-.producttitle {
-  color: black;
-  font-size: 74px;
-  line-height: 100px;
-  margin-bottom: 5px;
-}
-.itemprice {
-  font-size: 60px;
-}
-
-button {
-  width: fit-content;
-  border: none;
-  font-size: 13px;
-  padding: 10px 20px;
-  background-color: rgb(224, 224, 224);
+.small-img-col {
+  flex-basis: 24%;
   cursor: pointer;
 }
 
-.pic {
-  width: 100%;
-  text-align: center;
+.single-product .col-2 img {
+  padding: 0;
 }
 
-.pic img {
-  width: 70%;
+.single-product .col-2 {
+  padding: 20px;
 }
 
-#sizes {
-  width: 130px;
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
 }
+
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.single-product select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.single-product h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.single-product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 1px solid var(--copper);
+}
+
+input:focus {
+  outline: none;
+}
+
+.col-2 a {
+  text-decoration: none;
+}
+
+.single-product .fa {
+  color: var(--copper);
+  margin-left: 10px;
+}
+
+.col-2 p {
+  color: var(--black);
+  font-family: sans-serif;
+}
+
+.cartButton {
+  display: inline-block;
+  background-color: var(--copper);
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.cartButton:hover {
+  background: var(--black);
+}
+
 /* end of the individual item styling -Mustafa */
 
 /*about us page styling*/
