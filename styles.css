@@ -471,6 +471,45 @@ nav {
   width: 1450px;
 }
 
+
+.everythingholder{
+  text-align: center;
+    width: 70%;
+    align-items: center;
+    margin: 16px auto;
+  }
+  .contactTitle {
+    color: #0c0907;
+    font-size: 60px;
+    font-weight: 500;
+  
+    font-family: sans-serif;
+    padding: 11px;
+    margin-bottom: 20px;
+    color: #200505;
+  }
+  
+  .contactusrow {
+    display: flex;
+  }
+  
+  .contactuscolumn {
+    flex: 33.33%;
+    padding: 75px;
+  }
+  
+  .textundertitle{
+    font-size: 30px;
+  }
+  .emailimg{
+    height: 100px;
+    width: 100px;
+  }
+  .adressimg{
+    height: 100px;
+    width: 100px;
+  }
+
 .titlecu {
   color: #200505;
   font-size: 40px;
