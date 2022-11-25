@@ -1,63 +1,122 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Shopping Cart</title>
 
-    <link rel="stylesheet" type="text/css" href="shoppingCart.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <div class="container">
-            <h1>Empyrean Threads</h1>
-            <div class="menu">
-                <a href="#" class="is-active">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact</a>
-                <a href="#">Cart</a>
-                <a href="#">History</a>
-            </div>
+      <div class="nav_Container">
+        <h1>Empyrean Threads</h1>
+        <div class="menu">
+          <a href="index.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 1024 1024"
+            >
+              <path
+                fill="currentColor"
+                d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3c0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8c24.9-25 24.9-65.5-.1-90.5z"
+              /></svg
+          ></a>
 
-            <button class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+          <a href="contactus.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12.85 12.1q-.25.25-.55.125q-.3-.125-.3-.475v-7.8q0-.425.288-.713q.287-.287.712-.287h7q.425 0 .712.287q.288.288.288.713v5q0 .425-.288.712q-.287.288-.712.288h-5Zm7.1 8.9q-3.225 0-6.287-1.438q-3.063-1.437-5.425-3.8q-2.363-2.362-3.8-5.425Q3 7.275 3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.225t.325.575l.65 3.5q.05.35-.012.637q-.063.288-.288.513L7 10.9q1.05 1.8 2.625 3.375T13.1 17l2.35-2.35q.225-.225.588-.338q.362-.112.712-.062l3.45.7q.35.075.575.337q.225.263.225.613v4.05q0 .45-.3.75t-.75.3Z"
+              /></svg
+          ></a>
+          <a href="products.html"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 15 15"
+            >
+              <path
+                fill="currentColor"
+                d="M4 2L1 4.5V7h3v6h7V7h3V4.5L11 2H9.5l-2 4l-2-4H4Z"
+              /></svg
+          ></a>
+          <a href="Cart.html" class="is-active"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 2a6 6 0 0 1 6 6v1h4v2h-1.167l-.757 9.083a1 1 0 0 1-.996.917H4.92a1 1 0 0 1-.996-.917L3.166 11H2V9h4V8a6 6 0 0 1 6-6zm1 11h-2v4h2v-4zm-4 0H7v4h2v-4zm8 0h-2v4h2v-4zm-5-9a4 4 0 0 0-3.995 3.8L8 8v1h8V8a4 4 0 0 0-3.8-3.995L12 4z"
+              /></svg
+          ></a>
+          <a href="login.html">Login </a>
+          <a href="signUp.html">Sign Up</a>
+          <a href="aboutUs.html">About Us</a>
         </div>
+
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
     </nav>
 
-    <div class="containerFluid  mt-90">
-        <div class="rows">
-
-            <div class="col-md-12">
-
-                <div class="cart">
-                    <div class="cartHeader">
-                        <h5>Shopping-Cart</h5>
-                    </div>
-                    <div class="cartBody cart">
-                        <div class="col-sm-12 empty-cart-cls text-center">
-                            <img src="shopping-Cart.png" width="110" height="110" class="image-fluid mb-3 mr-2">
-                            <h3><strong>Cart is Empty</strong></h3>
-                            <h4>Please add items to cart!</h4>
-                            <!--Please add link to go back to the products page-->
-                            <a href="#" class="btn btn-primary cart-btn-transform m-2" data="true">continue shopping</a>
-                        </div>
-                    </div>
-                </div>
+    <div class="containerFluid mt-90">
+      <div class="rows">
+        <div class="col-md-12">
+          <div class="cart">
+            <div class="cartHeader">
+              <h5>Shopping-Cart</h5>
             </div>
+            <div class="cartBody cart">
+              <div class="col-sm-12 empty-cart-cls text-center">
+                <img
+                  src="shopping-Cart.png"
+                  width="110"
+                  height="110"
+                  class="image-fluid mb-3 mr-2"
+                />
+                <h3><strong>Cart is Empty</strong></h3>
+                <h4>Please add items to cart!</h4>
+                <!--Please add link to go back to the products page-->
+                <a
+                  href="products.html"
+                  class="btn btn-primary cart-btn-transform m-2"
+                  data="true"
+                  >continue shopping</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
