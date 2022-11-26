@@ -496,108 +496,6 @@ nav {
 }
 /* contact page end */
 
-/*product page */
-
-.main-container {
-  padding: 10px;
-  display: inline;
-}
-
-.text p {
-  text-align: center;
-}
-.allitems {
-  text-align: center;
-  width: 70%;
-  align-items: center;
-  margin: 16px auto;
-}
-.items {
-  margin-top: 30px;
-  margin: 0px;
-  position: relative;
-}
-
-.maintitle {
-  color: #0c0907;
-  font-size: 40px;
-  font-weight: 500;
-
-  font-family: sans-serif;
-  padding: 11px;
-  margin-bottom: 20px;
-}
-
-.itemtitle {
-  font-size: 40px;
-  text-align: center;
-}
-
-.tshirt {
-  position: relative;
-  width: 100%;
-}
-
-.tshirtthings {
-  padding: 30px 9px 32px 9px;
-  background: rgb(241, 240, 240);
-}
-
-.text {
-  position: relative;
-  left: 220px;
-  font-size: 16px;
-  text-align: center;
-  width: 55%;
-}
-
-.tshirtpic {
-  position: relative;
-  right: 30px;
-  top: -40px;
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-
-  margin: 0 auto;
-}
-
-.itemname {
-  font-family: "Fira sans", sans-serif;
-  background: rgb(241, 240, 240);
-  align-items: center;
-}
-.price {
-  background: rgb(247, 247, 247);
-}
-
-.information {
-  position: relative;
-  background: white;
-  font-size: 16px;
-}
-.productname {
-  color: black;
-  display: block;
-  font-size: 16px;
-  font-weight: bold;
-  background: rgb(247, 247, 247);
-}
-.itemtitle {
-  background: rgb(247, 247, 247);
-}
-
-.maincontainer {
-  position: relative;
-  top: 60px;
-  margin: 0 auto;
-  height: 100vh;
-  width: 100%;
-  background-color: var(--orange);
-  display: flex;
-}
-/* products page end */
-
 /*  indivual item 1 page code*/
 
 .small-container {
@@ -981,3 +879,85 @@ button:hover {
   background-color: rgb(255, 87, 51) !important;
   border-color: rgb(255, 87, 51) !important;
 }
+/* product Page */
+
+img{
+  width: 100%;
+  display: block;
+}
+
+.MainTitle{
+  font-size: 40px;
+  padding: 5px 0;
+  text-align: center;
+}
+.productName{
+  color: black;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+.ItemTitle{
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.EverythingHolder{
+  padding: 50px 0px;
+}
+.products{
+  text-align: center;
+  margin: 9px  auto;
+  width: 70%;
+
+}
+
+.ItemBackground{
+
+  padding: 50px 5px 30px 8px;
+
+  background-color: aliceblue;
+ 
+
+}
+.ItemImg{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.ItemHolder{
+  margin: 42px;
+  position: relative;
+}
+
+.ItemInfo{
+  padding:30px;
+  background: rgb(209, 208, 208);
+
+}
+
+
+
+
+@media screen and (min-width: 990px){
+  .product-items{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  } 
+}
+
+@media screen and (min-width: 1200px){
+  .product-items{
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .ItemHolder{
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+  .ItemsHolder {
+      width: 48%;
+  }
+}
+/*product page end */
