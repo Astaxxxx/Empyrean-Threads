@@ -458,41 +458,75 @@ nav {
 
 /* contact page */
 .everythingholder {
-  text-align: center;
-  width: 70%;
+  
+  width: 90%;
   align-items: center;
   margin: 16px auto;
+
+  
+
+ 
+}
+.textundertitle{
+  
+  color: white;
+  text-align: center;
+ 
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 35px;
+  font-family: sans-serif;
+  padding: 11px;
+  margin-bottom: 20px;
+  font-style:oblique;
+  
 }
 .contactTitle {
-  color: #0c0907;
+  color: white;
+  text-align: center;
+ 
   font-size: 60px;
   font-weight: 500;
   margin-top: 35px;
   font-family: sans-serif;
   padding: 11px;
   margin-bottom: 20px;
-  color: #200505;
+  font-style:oblique;
+  
+  
 }
 
-.contactusrow {
-  display: flex;
+.contactusrow{
+
+ clear: both;
+ display: table;
 }
 
 .contactuscolumn {
-  flex: 33.33%;
-  padding: 75px;
+float: left;
+ 
+  padding: 90px;
+ 
 }
 
-.textundertitle {
-  font-size: 30px;
+
+
+
+.EmailPic {
+  height: 250px;
+  width: 250px;
+
 }
-.emailimg {
-  height: 100px;
-  width: 100px;
+
+.AdressPic{
+  height: 250px;
+  width: 250px;
+  
 }
-.adressimg {
-  height: 100px;
-  width: 100px;
+
+.PhonePic{
+  height: 250px;
+  width: 250px;
 }
 /* contact page end */
 
