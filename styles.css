@@ -505,6 +505,8 @@ nav {
   padding-right: 20px;
 }
 
+
+
 .row {
   display: flex;
   align-items: center;
@@ -517,13 +519,30 @@ nav {
 }
 
 .small-img-row {
+ 
   display: flex;
   justify-content: space-around;
+  padding: 0px;
+  
+ 
 }
-.col-2 img {
-  max-width: 100%;
-  padding: 50px 0;
+
+.b2{
+ width:125px;
+ background-color: white;
 }
+.b1{
+  width:125px;
+  background-color: white;
+ }
+
+ .b3{
+  width:155px;
+  background-color: white;
+ }
+
+
+
 
 .small-img-col {
   flex-basis: 24%;
@@ -938,6 +957,9 @@ img{
 
 }
 
+#second, #third {
+  display: none
+}
 
 
 
@@ -960,4 +982,6 @@ img{
       width: 48%;
   }
 }
+
+
 /*product page end */
