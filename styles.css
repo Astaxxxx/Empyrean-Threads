@@ -911,7 +911,7 @@ button:hover {
 }
 /* product Page */
 
-img {
+.ItemHolder img {
   width: 100%;
   display: block;
 }
