@@ -231,9 +231,9 @@ Index begins
 body {
   background: linear-gradient(
     90deg,
-    rgb(102, 96, 211) 0%,
-    rgb(241, 57, 156) 25%,
-    rgba(194, 245, 255, 1) 100%
+    rgba(245, 106, 250, 0.884) 0%,
+    rgb(190, 148, 238) 25%,
+    rgba(162, 174, 243, 0.89) 100%
   );
 }
 
@@ -381,10 +381,14 @@ nav {
 }
 
 .main_text a {
-  color: rgb(77, 236, 28);
+  color: rgb(236, 1, 1);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+footer {
+  margin-top: 200px;
+  text-align: center;
+}
 /* index page code ended */
 
 /* login page start */
@@ -849,10 +853,11 @@ button:hover {
 }
 
 .cart .cartHeader {
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   border-bottom: none;
   padding: 26px;
-  border-bottom: 1px solid rgb(246, 247, 251);
+  border: 1px slateblue solid;
+
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
