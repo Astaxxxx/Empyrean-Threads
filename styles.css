@@ -229,12 +229,7 @@ Index begins
   --mint: #32ac8d;
 }
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(245, 106, 250, 0.884) 0%,
-    rgb(190, 148, 238) 25%,
-    rgba(162, 174, 243, 0.89) 100%
-  );
+  background-color: seashell;
 }
 
 * {
@@ -256,7 +251,7 @@ body {
 }
 
 .nav_Container h1 {
-  color: rgb(17, 17, 95);
+  color: white;
   font-size: 25px;
   font-weight: 900;
   letter-spacing: 3px;
@@ -270,12 +265,7 @@ nav {
   right: 0;
 
   z-index: 99;
-  background: linear-gradient(
-    90deg,
-    #2becac 0%,
-    rgb(111, 176, 214) 25%,
-    rgb(173, 27, 173) 100%
-  );
+  background-color: #000000;
   padding: 14px 28px;
   border-bottom: 5px solid var(--orange);
 }
@@ -337,7 +327,7 @@ nav {
 }
 
 .menu a {
-  color: #2becac;
+  color: white;
   margin: 0 16px;
   font-weight: 600;
   text-decoration: none;
@@ -348,7 +338,7 @@ nav {
 
 .menu a.is-active,
 .menu a:hover {
-  color: var(--black);
+  color: var(--purple);
   background-color: var(--copper);
 }
 
