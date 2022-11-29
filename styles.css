@@ -267,7 +267,7 @@ nav {
   z-index: 99;
   background-color: #000000;
   padding: 14px 28px;
-  border-bottom: 5px solid var(--orange);
+  border-bottom: 5px solid var(--purple);
 }
 
 .hamburger {
@@ -378,6 +378,9 @@ nav {
 footer {
   margin-top: 200px;
   text-align: center;
+  z-index: 900;
+  padding-bottom: 0px;
+  margin-bottom: 100px;
 }
 /* index page code ended */
 
@@ -457,7 +460,7 @@ footer {
   margin: 16px auto;
 }
 .textundertitle {
-  color: white;
+  color: black;
   text-align: center;
 
   font-size: 30px;
@@ -469,7 +472,7 @@ footer {
   font-style: oblique;
 }
 .contactTitle {
-  color: white;
+  color: black;
   text-align: center;
 
   font-size: 60px;
