@@ -226,7 +226,15 @@ Index begins
   --copper: #ffcb9a;
   --aqua: #5ab9ea;
   --orange: #ea8b5a;
+  --pycheWardGray: #eae7dc;
   --mint: #32ac8d;
+  --neonMintMobile: #15db95;
+  --newColour: #edc7b7;
+  --hotterPinky: #ac3b61;
+  --navyDavy: #2f4454;
+  --cryinCyan: #376e6f;
+  --shockingPurple: #8860d0;
+  --rustedRed: #bc4639;
 }
 body {
   background-color: seashell;
@@ -251,7 +259,7 @@ body {
 }
 
 .nav_Container h1 {
-  color: white;
+  color: var(--hotterPinky);
   font-size: 25px;
   font-weight: 900;
   letter-spacing: 3px;
@@ -265,9 +273,9 @@ nav {
   right: 0;
 
   z-index: 99;
-  background-color: #000000;
+  background-color: var(--black);
   padding: 14px 28px;
-  border-bottom: 5px solid var(--purple);
+  border-bottom: 5px solid var(--shockingPurple);
 }
 
 .hamburger {
@@ -490,10 +498,24 @@ footer {
   margin: auto;
 }
 
+.contactuscolumn h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
 .contactuscolumn {
   float: left;
   padding: 60px;
   text-align: center;
+}
+
+.contactuscolumn p1 {
+  font-size: 20px;
+}
+
+.contactuscolumn p2 {
+  font-size: 20px;
+  color: var(--purple);
 }
 
 .EmailPic {
@@ -513,7 +535,7 @@ footer {
 
 /* contact page end */
 
-/*  indivual item 1 page code*/
+/*  indivual item  pages code*/
 
 .small-container {
   max-width: 1000px;
@@ -598,7 +620,7 @@ footer {
   margin-right: 10px;
   margin-top: 10px;
   border-radius: 15px;
-  border: 1px solid var(--copper);
+  border: 1px solid var(--p);
 }
 
 input:focus {
@@ -706,7 +728,7 @@ body {
   margin-bottom: 45px;
 }
 
-button {
+.text button {
   background-color: orange;
   color: white;
   border: 2px solid transparent;
@@ -717,7 +739,7 @@ button {
   font-weight: bold;
 }
 
-button:hover {
+.text button:hover {
   transform: scale(1, 1);
   background-color: transparent;
   border: 2px solid orange;
@@ -828,7 +850,7 @@ button:hover {
 /* shopping cart css */
 
 .mt-90 {
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 .cartHeader {
@@ -885,7 +907,7 @@ button:hover {
 }
 
 .OrderHistory .orderHeader {
-  background-color: rgb(255, 255, 255);
+  background-color: seashell;
   border-bottom: none;
   padding: 26px;
   border-bottom: 1px solid rgb(246, 247, 251);
@@ -919,9 +941,14 @@ button:hover {
   font-size: 40px;
   padding: 5px 0;
   text-align: center;
+  color: var(--) var(--rustedRed);
+}
+
+.mainTitle Male clothing {
+  color: var(--neonMintMobile);
 }
 .productName {
-  color: black;
+  color: var(--purple);
   display: block;
   text-decoration: none;
   font-size: 20px;
@@ -929,6 +956,7 @@ button:hover {
 .ItemTitle {
   font-size: 21px;
   text-transform: uppercase;
+  color: var(--rustedRed);
 }
 
 .EverythingHolder {
@@ -943,7 +971,7 @@ button:hover {
 .ItemBackground {
   padding: 50px 5px 30px 8px;
 
-  background-color: aliceblue;
+  background-color: var(--navyDavy);
 }
 .ItemImg {
   width: 200px;
