@@ -1,30 +1,30 @@
 <header>
 <link rel="stylesheet" href="{{asset('css/Pages/carousel.css')}}">
 <script src="{{asset('js/carousel.js')}}"></script>
- <!-- Slideshow container -->
- <div class="slideshow-container fade">
+ <!-- Slide container -->
+ <div class="Slide-container fade">
 
 <!-- Full images with numbers and message Info -->
-<div class="Containers">
+<div class="Container">
   
   <img src="{{asset('storage/products/58e38d1b204d556bbd97b165 (1).png')}}"  class=centerImage>
   <div class="Info">Grey Hoodie</div>
 </div>
 
-<div class="Containers">
+<div class="Container">
   
   <img src="{{asset('storage/products/aPngtreeapremium_white_t-shirt_mockup_3635949.png')}}" class=centerImage>
   <div class="Info">white T-shirt</div>
 </div>
 
-<div class="Containers">
+<div class="Container">
   <img src="{{asset('storage/products/pngegg-4.png')}}" class=centerImage>
   <div class="Info">Purple Jumper</div>
 </div>
 
 <!-- Back and forward buttons -->
-<a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-<a class="forward" onclick="plusSlides(1)">&#10095;</a>
+<a class="Backbutton" onclick="plusSlides(-1)">&#10094;</a>
+<a class="Forwardbutton" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
 
@@ -50,7 +50,7 @@ function currentSlide(n) {
 
 function SlideShow(n) {
   var i;
-  var slides = document.getElementsByClassName("Containers");
+  var slides = document.getElementsByClassName("Container");
   var circles = document.getElementsByClassName("dots");
   if (n > slides.length) {slidePosition = 1}
   if (n < 1) {slidePosition = slides.length}
