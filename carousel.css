@@ -1,19 +1,19 @@
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.Slide-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
 /* Make the images invisible by default */
-.Containers {
+.Container {
   display: none;
 }
 
-/* forward & Back buttons */
-.Back, .forward {
+/* Forward & Back buttons */
+.Backbutton, .Forwardbutton {
   cursor: pointer;
   position: absolute;
   top: 48%;
@@ -28,7 +28,7 @@
   user-select: none;
 }
 
-/* Place the "forward button" to the right */
+/* Place the "Forward button" to the right */
 .forward {
   right: 0;
   border-radius: 4px 0 0 4px;
