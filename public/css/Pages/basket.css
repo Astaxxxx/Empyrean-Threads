@@ -1,0 +1,48 @@
+.basket-page{
+    padding: 70px 15px;
+    background: #fafafa;
+}
+
+.basket-table{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.03);
+    overflow: hidden
+}
+.table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr{
+    background: #8860d0;
+    color: #fff;
+}
+th{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 10px;
+}
+td{
+    padding: 10px;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.basket-item-title{
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #8860d0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    width: 100px;
+}
+
+.ten{
+    width: 500px;
+}

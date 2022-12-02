@@ -1,0 +1,30 @@
+.push{
+    background: rgba(0, 0, 0, 0.04);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+}
+
+.push-box{
+    background: #fff;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+.push-box-title{
+    color: purple;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.push-actions{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

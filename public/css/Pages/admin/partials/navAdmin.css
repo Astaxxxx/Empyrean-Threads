@@ -1,0 +1,60 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: top;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 3px dashed red;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+ul{
+    display: flex;
+    flex-direction: top;
+    list-style: none;
+    gap: 5px;
+    padding: 0 10px ;
+}
+
+a{
+    display: flex;
+    flex-direction: top;
+    list-style: none;
+    gap: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: aqua;
+    border-radius: 3px;
+    font-weight: 200;
+    display: flex;
+    transition: all 0.1s ease;
+}
+a:hover{
+    background: #fff;
+    color: red;
+    font-weight: 500;
+}
+.logout 
+    button{
+    background: #ff000057;
+    border: 1px solid green;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius: 200px;
+    font-size: 12px;
+    transition: all 0.4s ease;
+    font-weight: 300;
+    font-style: italic;
+    cursor: pointer;
+}
+button:hover{
+    background: rebeccapurple;
+}

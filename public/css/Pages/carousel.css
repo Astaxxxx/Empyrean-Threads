@@ -1,0 +1,58 @@
+* {box-sizing:border-box}
+
+
+.slides-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.Containers {
+  display: none;
+  padding: 50px;
+}
+
+
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.MessageInfo {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+
+.centerImage{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

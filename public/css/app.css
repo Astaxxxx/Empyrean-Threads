@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+.btn{
+    padding: 10px 35px;
+    border-radius: 300px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    text-decoration: none;
+}
+.btn-primary{
+    background: purple;
+    color: rgb(23, 238, 238); 
+}
+.btn-primary:hover{
+    background: rgb(44, 13, 44);
+}
+
+.btn-outlined{
+    border: 1px solid purple;
+    background: white;
+    color: rgb(23, 238, 238); 
+}
+.btn-outlined:hover{
+    background: rgb(44, 13, 44);
+    color: white;
+}
+.btn-block{
+    width: 100%;
+}
+
+.admin-main{
+    margin-left: 300px;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.page-header{
+    
+    padding: 100px 25px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 0 50% 50%;
+    color: white;
+}
