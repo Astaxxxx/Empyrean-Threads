@@ -9,9 +9,13 @@
 
 
 Project Summary: A clothing website targeted towards students. The website has users and admin logins, with user being able to update their baskets and view the order history once they are logged in. The admin is also able to add, delete and update products from the admin panel.
+
 Built using Laravel framework, PHP, JS, HTML, CSS and MySQL. Hosted using Aston University servers.
+
 Website URL: https://200104199.cs2410-web01pvm.aston.ac.uk/Website-Empryean-Threads/public/productPage 
+
 Link to GitHub: https://github.com/Astaxxxx/Team-32--Empyrean-Threads 
+
 Link to Trello: https://trello.com/b/9xBb4trJ/team-project-group-32
 
 
