@@ -1,0 +1,46 @@
+/*css for main part of the page*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #ffcb9a;
+}
+
+.about img{
+    height: auto;
+    width: 420px;
+}
+
+.about_text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about_text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about_text h5{
+    color: orange;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
